@@ -18,4 +18,4 @@ yticks([0,0.5,1]);
 
 text (33,     1.1,  "Low",    "FontSize", 16);
 text (36.75,  1.1,  "Normal", "FontSize", 16);
-text (40,     1.1,  "High",   "FontSize", 16);
+text (41,     1.1,  "High",   "FontSize", 16);
