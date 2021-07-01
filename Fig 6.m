@@ -1,13 +1,10 @@
 # Fig 6
 x = (0:5:100);
-#y = [1,1,0,1,0,1,0,1,0,1,1];
-#y1 = [0,0,0,0,0,0,0,0,0,1,1];
-
 y = [1,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,1];
 y1 = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1];
 
 figure;
-plot( x,  y, x,  y1, '-', "color", "r")
+plot( x,  y, x,  y1)
 
 title ("Fig. 6: Output Health State membership function", "FontSize", 24 );
 xlabel ("Output Health State", "FontSize", 20 );
