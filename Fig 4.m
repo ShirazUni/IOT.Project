@@ -1,16 +1,14 @@
 # Fig 4
 
-x   = [30:43];
+x   = (30:43);
 y   = [1,1,1,1,1,1,0,1,1,0,1,1,1,1];
 y2  = [0,0,0,0,0,0,0,0,0,0,0,0,0,0];
 
-plot( x, y,   "color", [0,0,0], 
-      x, y2,  "color", [0,0,0]);
+figure;
+plot( x, y, x, y2 );
 
-title ( "Fig. 4: Body Temperature membership function", 
-        "FontSize", 24 );
-xlabel ("Body Temperature", 
-        "FontSize", 20 );
+title ( "Fig. 4: Body Temperature membership function", "FontSize", 24 );
+xlabel ("Body Temperature", "FontSize", 20 );
 
 ylim([-0.1  1.2]);
 xlim([30    43]);
